@@ -62,7 +62,8 @@ def branch_bound(tableau_entrada,
         # if node.solution == "Infeasible!":
         #     Z = "Infeasible"
         # else:
-        #     Z = node.Z
+        #     pass
+        Z = node.Z
 
         abs_gap = UB - Z  # Gap absoluto
         rel_gap = abs_gap / UB * 100
